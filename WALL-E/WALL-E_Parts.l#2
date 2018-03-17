@@ -347,25 +347,6 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM3490-3.3">
-<gates>
-<gate name="G$1" symbol="LM3490-3.3" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="DBV_R-PDSO-G5">
-<connects>
-<connect gate="G$1" pin="ENABLE" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="4"/>
-<connect gate="G$1" pin="NC" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LM3940">
 <gates>
 <gate name="G$1" symbol="LM3940" x="0" y="0"/>

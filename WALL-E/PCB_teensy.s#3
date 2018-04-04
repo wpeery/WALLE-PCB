@@ -6695,26 +6695,6 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="21"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
 </package>
-<package name="1X4MTA" library_version="1">
-<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;</description>
-<wire x1="8.3312" y1="6.35" x2="8.3312" y2="3.81" width="0.4064" layer="21"/>
-<wire x1="8.3312" y1="3.81" x2="8.3312" y2="-3.81" width="0.4064" layer="21"/>
-<wire x1="-8.1788" y1="-3.81" x2="-8.1788" y2="3.81" width="0.4064" layer="21"/>
-<wire x1="-8.1788" y1="3.81" x2="-8.1788" y2="6.35" width="0.4064" layer="21"/>
-<wire x1="-8.1788" y1="6.35" x2="8.3312" y2="6.35" width="0.4064" layer="21"/>
-<wire x1="-8.1788" y1="3.81" x2="8.3312" y2="3.81" width="0.3048" layer="21"/>
-<wire x1="-8.1788" y1="-3.81" x2="8.3312" y2="-3.81" width="0.4064" layer="21"/>
-<pad name="3" x="-1.9812" y="0" drill="1.6764" shape="long" rot="R90"/>
-<pad name="2" x="1.9812" y="0" drill="1.6764" shape="long" rot="R90"/>
-<pad name="1" x="5.9436" y="0" drill="1.6764" shape="long" rot="R90"/>
-<pad name="4" x="-5.9436" y="0" drill="1.6764" shape="long" rot="R90"/>
-<text x="-3.175" y="-7.0612" size="1.778" layer="25">&gt;NAME</text>
-<text x="-7.1389" y="4.4148" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="5.4356" y1="-0.508" x2="6.4516" y2="0.508" layer="21"/>
-<rectangle x1="1.4732" y1="-0.508" x2="2.4892" y2="0.508" layer="21"/>
-<rectangle x1="-2.4892" y1="-0.508" x2="-1.4732" y2="0.508" layer="21"/>
-<rectangle x1="-6.4516" y1="-0.508" x2="-5.4356" y2="0.508" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="MTA-1_4" library_version="1">
@@ -6749,23 +6729,6 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <pin name="3" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="MTA-04" library_version="1">
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="8.89" y1="-1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="8.89" y1="-1.905" x2="8.89" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="8.89" y2="1.27" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
-<circle x="2.54" y="0" radius="0.635" width="0.254" layer="94"/>
-<circle x="5.08" y="0" radius="0.635" width="0.254" layer="94"/>
-<circle x="7.62" y="0" radius="0.635" width="0.254" layer="94"/>
-<text x="10.16" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="10.16" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="-1.27" size="1.27" layer="95">1</text>
-<pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="7.62" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MTA04-100" prefix="J" uservalue="yes" library_version="1">
@@ -6798,25 +6761,6 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MTA04-156" prefix="J" uservalue="yes" library_version="1">
-<description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
-<gates>
-<gate name="G$3" symbol="MTA-04" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X4MTA">
-<connects>
-<connect gate="G$3" pin="1" pad="1"/>
-<connect gate="G$3" pin="2" pad="2"/>
-<connect gate="G$3" pin="3" pad="3"/>
-<connect gate="G$3" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8689,9 +8633,9 @@ Source: www.kingbright.com</description>
 <part name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-100" device=""/>
 <part name="J11" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-100" device=""/>
 <part name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-100" device=""/>
-<part name="J13" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-156" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X20" device=""/>
 <part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X20" device=""/>
+<part name="J14" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-100" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8749,9 +8693,9 @@ Source: www.kingbright.com</description>
 <instance part="J10" gate="G$1" x="53.34" y="86.36"/>
 <instance part="J11" gate="G$1" x="71.12" y="86.36"/>
 <instance part="J12" gate="G$1" x="91.44" y="86.36"/>
-<instance part="J13" gate="G$3" x="71.12" y="50.8"/>
 <instance part="JP1" gate="A" x="-63.5" y="-25.4" rot="R270"/>
 <instance part="JP2" gate="A" x="-114.3" y="-7.62" rot="R180"/>
+<instance part="J14" gate="G$1" x="99.06" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -8903,11 +8847,6 @@ Source: www.kingbright.com</description>
 <label x="50.8" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J13" gate="G$3" pin="2"/>
-<wire x1="73.66" y1="48.26" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
-<label x="73.66" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="A" pin="8"/>
 <wire x1="-111.76" y1="-12.7" x2="-104.14" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-104.14" y="-12.7" size="1.778" layer="95"/>
@@ -8959,6 +8898,11 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-111.76" y1="17.78" x2="-104.14" y2="17.78" width="0.1524" layer="91"/>
 <label x="-104.14" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="48.26" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
+<label x="96.52" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -9115,9 +9059,9 @@ Source: www.kingbright.com</description>
 <label x="86.36" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J13" gate="G$3" pin="1"/>
-<wire x1="71.12" y1="48.26" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
-<label x="68.58" y="40.64" size="1.778" layer="95"/>
+<pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="48.26" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<label x="93.98" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -9371,26 +9315,26 @@ Source: www.kingbright.com</description>
 </net>
 <net name="MOSI_0" class="0">
 <segment>
-<pinref part="J13" gate="G$3" pin="3"/>
-<wire x1="76.2" y1="48.26" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
-<label x="76.2" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="11/MOSI"/>
 <wire x1="-30.48" y1="33.02" x2="-35.56" y2="33.02" width="0.1524" layer="91"/>
 <label x="-35.56" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="3"/>
+<wire x1="101.6" y1="48.26" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<label x="101.6" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO_0" class="0">
-<segment>
-<pinref part="J13" gate="G$3" pin="4"/>
-<wire x1="78.74" y1="48.26" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
-<label x="81.28" y="38.1" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="12/MISO"/>
 <wire x1="-30.48" y1="30.48" x2="-35.56" y2="30.48" width="0.1524" layer="91"/>
 <label x="-35.56" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="4"/>
+<wire x1="104.14" y1="48.26" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<label x="104.14" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28U" class="0">

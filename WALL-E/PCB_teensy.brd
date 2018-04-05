@@ -206,6 +206,17 @@
 <text x="4.5" y="83.5" size="1.016" layer="21" rot="R180">ALRM</text>
 <text x="4" y="81" size="1.016" layer="21" rot="R180">GND</text>
 <text x="4" y="78.25" size="1.016" layer="21" rot="R180">3.3V</text>
+<wire x1="70" y1="109.75" x2="70" y2="78" width="0.1524" layer="21"/>
+<wire x1="70" y1="78" x2="23.25" y2="78" width="0.1524" layer="21"/>
+<wire x1="23.25" y1="78" x2="23.25" y2="109.75" width="0.1524" layer="21"/>
+<wire x1="23.25" y1="109.75" x2="70" y2="109.75" width="0.1524" layer="21"/>
+<text x="46.25" y="107.5" size="1.778" layer="21">I2C</text>
+<text x="34" y="91.5" size="1.27" layer="21" rot="R90">GND</text>
+<text x="50.5" y="91.75" size="1.27" layer="21" rot="R90">GND</text>
+<text x="66.5" y="92" size="1.27" layer="21" rot="R90">GND</text>
+<wire x1="32.5" y1="96.25" x2="33.25" y2="97" width="0.1524" layer="21"/>
+<wire x1="33.25" y1="97" x2="34" y2="96.25" width="0.1524" layer="21"/>
+<wire x1="34" y1="96.25" x2="32.5" y2="96.25" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -1154,9 +1165,18 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="" x="42.25" y="51.25" rot="R180"/>
 <element name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="" x="37.25" y="51.25" rot="R180"/>
 <element name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="103.75" rot="R90"/>
-<element name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="101.5"/>
-<element name="J11" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="101.5"/>
-<element name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="101.5"/>
+<element name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="101.5" smashed="yes">
+<attribute name="NAME" x="55.7488" y="101.2488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="59.5239" y="103.6509" size="1.27" layer="27"/>
+</element>
+<element name="J11" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="101.5" smashed="yes">
+<attribute name="NAME" x="39.7488" y="101.2488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="43.5239" y="103.6509" size="1.27" layer="27"/>
+</element>
+<element name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="101.5" smashed="yes">
+<attribute name="NAME" x="23.4988" y="100.9988" size="1.27" layer="25"/>
+<attribute name="VALUE" x="27.0239" y="103.6509" size="1.27" layer="27"/>
+</element>
 <element name="J14" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="61.75" rot="R90"/>
 <element name="J2" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="89.75" rot="R90"/>
 <element name="J3" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="75.75" rot="R90"/>
@@ -1166,9 +1186,18 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="5.7338" y="84.8688" size="1.27" layer="25"/>
 <attribute name="VALUE" x="8.5209" y="84.1762" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J7" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="84"/>
-<element name="J8" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="84"/>
-<element name="J9" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="84"/>
+<element name="J7" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="84" smashed="yes">
+<attribute name="NAME" x="55.7488" y="83.7488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="59.5239" y="86.1509" size="1.27" layer="27"/>
+</element>
+<element name="J8" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="84" smashed="yes">
+<attribute name="NAME" x="39.7488" y="83.7488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="43.5239" y="86.1509" size="1.27" layer="27"/>
+</element>
+<element name="J9" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="84" smashed="yes">
+<attribute name="NAME" x="24.4988" y="83.4988" size="1.27" layer="25"/>
+<attribute name="VALUE" x="27.0239" y="86.1509" size="1.27" layer="27"/>
+</element>
 <element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" value="" x="35.5" y="8.75" smashed="yes">
 <attribute name="VALUE" x="10.1" y="5.575" size="1.27" layer="27"/>
 </element>
@@ -1205,7 +1234,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="U$1" library="WALL-E_Parts" package="TEENSY_3.5/3.6" value="TEENSY_3.5/3.6" x="37.5" y="21.75" rot="R180"/>
 <element name="U$2" library="WALL-E_Parts" package="1825910-7" value="TACTILE-SWITCH-1825910-7" x="5.83" y="66.17" smashed="yes"/>
 <element name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="PJ-102A" value="2.1MMJACKTHM" x="8.87" y="94.59" smashed="yes" rot="R90"/>
-<element name="U$4" library="WALL-E_Parts" package="SIP3" value="R-78E5.0-0.5" x="16.41" y="77.29"/>
+<element name="U4" library="WALL-E_Parts" package="SIP3" value="R-78E5.0-0.5" x="16.41" y="77.29"/>
 <element name="U$5" library="WALL-E_Parts" package="SOT223" value="LM3940" x="25.36" y="62.58" smashed="yes">
 <attribute name="VALUE" x="22.07" y="56.2592" size="1.27" layer="27"/>
 </element>
@@ -1221,7 +1250,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signals>
 <signal name="+12V">
 <contactref element="U$6" pad="RING"/>
-<contactref element="U$4" pad="1"/>
+<contactref element="U4" pad="1"/>
 <contactref element="TP1" pad="TP"/>
 <contactref element="U$3" pad="RING"/>
 <contactref element="TP4" pad="TP"/>
@@ -1286,7 +1315,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </polygon>
 </signal>
 <signal name="5V">
-<contactref element="U$4" pad="3"/>
+<contactref element="U4" pad="3"/>
 <contactref element="U$5" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="TP2" pad="TP"/>
@@ -1308,7 +1337,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="23.25" y1="45.5" x2="28.25" y2="45.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="U$4" pad="2"/>
+<contactref element="U4" pad="2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="TP13" pad="TP"/>
 <wire x1="43.1" y1="51.25" x2="43.1" y2="45.65" width="0.1524" layer="1"/>

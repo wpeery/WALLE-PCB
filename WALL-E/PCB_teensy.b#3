@@ -206,6 +206,17 @@
 <text x="4.5" y="83.5" size="1.016" layer="21" rot="R180">ALRM</text>
 <text x="4" y="81" size="1.016" layer="21" rot="R180">GND</text>
 <text x="4" y="78.25" size="1.016" layer="21" rot="R180">3.3V</text>
+<wire x1="70" y1="109.75" x2="70" y2="78" width="0.1524" layer="21"/>
+<wire x1="70" y1="78" x2="23.25" y2="78" width="0.1524" layer="21"/>
+<wire x1="23.25" y1="78" x2="23.25" y2="109.75" width="0.1524" layer="21"/>
+<wire x1="23.25" y1="109.75" x2="70" y2="109.75" width="0.1524" layer="21"/>
+<text x="46.25" y="107.5" size="1.778" layer="21">I2C</text>
+<text x="34" y="91.5" size="1.27" layer="21" rot="R90">GND</text>
+<text x="50.5" y="91.75" size="1.27" layer="21" rot="R90">GND</text>
+<text x="66.5" y="92" size="1.27" layer="21" rot="R90">GND</text>
+<wire x1="32.5" y1="96.25" x2="33.25" y2="97" width="0.1524" layer="21"/>
+<wire x1="33.25" y1="97" x2="34" y2="96.25" width="0.1524" layer="21"/>
+<wire x1="34" y1="96.25" x2="32.5" y2="96.25" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -1163,7 +1174,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="43.5239" y="103.6509" size="1.27" layer="27"/>
 </element>
 <element name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="101.5" smashed="yes">
-<attribute name="NAME" x="23.2488" y="101.2488" size="1.27" layer="25"/>
+<attribute name="NAME" x="23.4988" y="100.9988" size="1.27" layer="25"/>
 <attribute name="VALUE" x="27.0239" y="103.6509" size="1.27" layer="27"/>
 </element>
 <element name="J14" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="61.75" rot="R90"/>
@@ -1184,7 +1195,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="43.5239" y="86.1509" size="1.27" layer="27"/>
 </element>
 <element name="J9" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="84" smashed="yes">
-<attribute name="NAME" x="23.2488" y="83.7488" size="1.27" layer="25"/>
+<attribute name="NAME" x="24.4988" y="83.4988" size="1.27" layer="25"/>
 <attribute name="VALUE" x="27.0239" y="86.1509" size="1.27" layer="27"/>
 </element>
 <element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" value="" x="35.5" y="8.75" smashed="yes">

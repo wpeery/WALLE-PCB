@@ -1155,15 +1155,15 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="" x="37.25" y="51.25" rot="R180"/>
 <element name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="103.75" rot="R90"/>
 <element name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="101.5" smashed="yes">
-<attribute name="NAME" x="61.2488" y="98.2488" size="1.27" layer="25"/>
+<attribute name="NAME" x="55.7488" y="101.2488" size="1.27" layer="25"/>
 <attribute name="VALUE" x="59.5239" y="103.6509" size="1.27" layer="27"/>
 </element>
 <element name="J11" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="101.5" smashed="yes">
-<attribute name="NAME" x="45.2488" y="98.2488" size="1.27" layer="25"/>
+<attribute name="NAME" x="39.7488" y="101.2488" size="1.27" layer="25"/>
 <attribute name="VALUE" x="43.5239" y="103.6509" size="1.27" layer="27"/>
 </element>
 <element name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="101.5" smashed="yes">
-<attribute name="NAME" x="28.7488" y="98.2488" size="1.27" layer="25"/>
+<attribute name="NAME" x="23.2488" y="101.2488" size="1.27" layer="25"/>
 <attribute name="VALUE" x="27.0239" y="103.6509" size="1.27" layer="27"/>
 </element>
 <element name="J14" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="61.75" rot="R90"/>
@@ -1176,15 +1176,15 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="8.5209" y="84.1762" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J7" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="84" smashed="yes">
-<attribute name="NAME" x="61.2488" y="80.7488" size="1.27" layer="25"/>
+<attribute name="NAME" x="55.7488" y="83.7488" size="1.27" layer="25"/>
 <attribute name="VALUE" x="59.5239" y="86.1509" size="1.27" layer="27"/>
 </element>
 <element name="J8" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="84" smashed="yes">
-<attribute name="NAME" x="45.2488" y="80.7488" size="1.27" layer="25"/>
+<attribute name="NAME" x="39.7488" y="83.7488" size="1.27" layer="25"/>
 <attribute name="VALUE" x="43.5239" y="86.1509" size="1.27" layer="27"/>
 </element>
 <element name="J9" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="84" smashed="yes">
-<attribute name="NAME" x="28.7488" y="80.7488" size="1.27" layer="25"/>
+<attribute name="NAME" x="23.2488" y="83.7488" size="1.27" layer="25"/>
 <attribute name="VALUE" x="27.0239" y="86.1509" size="1.27" layer="27"/>
 </element>
 <element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" value="" x="35.5" y="8.75" smashed="yes">

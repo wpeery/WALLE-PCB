@@ -406,6 +406,14 @@
 <vertex x="21.75" y="73.5"/>
 <vertex x="29" y="73.5"/>
 </polygon>
+<text x="81.5" y="5" size="2.7" layer="21" rot="R90">WALL-E</text>
+<circle x="83.25" y="5.5" radius="0.9013875" width="0.1524" layer="21"/>
+<circle x="83.25" y="8.75" radius="0.70710625" width="0.1524" layer="21"/>
+<circle x="83.25" y="11.75" radius="0.559015625" width="0.1524" layer="21"/>
+<circle x="83.25" y="14.25" radius="0.353553125" width="0.1524" layer="21"/>
+<circle x="83.25" y="16.25" radius="0.25" width="0.1524" layer="21"/>
+<circle x="83.25" y="18.25" radius="0.25" width="0.1524" layer="21"/>
+<text x="91.25" y="3" size="1.778" layer="21" rot="R180">WesTangGang</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">

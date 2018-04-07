@@ -206,6 +206,101 @@
 <text x="4.5" y="83.5" size="1.016" layer="21" rot="R180">ALRM</text>
 <text x="4" y="81" size="1.016" layer="21" rot="R180">GND</text>
 <text x="4" y="78.25" size="1.016" layer="21" rot="R180">3.3V</text>
+<wire x1="70" y1="109.75" x2="70" y2="78" width="0.1524" layer="21"/>
+<wire x1="70" y1="78" x2="23.25" y2="78" width="0.1524" layer="21"/>
+<wire x1="23.25" y1="78" x2="23.25" y2="109.75" width="0.1524" layer="21"/>
+<wire x1="23.25" y1="109.75" x2="70" y2="109.75" width="0.1524" layer="21"/>
+<text x="46.25" y="107.5" size="1.778" layer="21">I2C</text>
+<text x="34" y="91.5" size="1.27" layer="21" rot="R90">GND</text>
+<wire x1="32.5" y1="96.25" x2="33.25" y2="97" width="0.1524" layer="21"/>
+<wire x1="33.25" y1="97" x2="34" y2="96.25" width="0.1524" layer="21"/>
+<wire x1="34" y1="96.25" x2="32.5" y2="96.25" width="0.1524" layer="21"/>
+<wire x1="34" y1="90.5" x2="33.25" y2="89.75" width="0.1524" layer="21"/>
+<wire x1="33.25" y1="89.75" x2="32.5" y2="90.5" width="0.1524" layer="21"/>
+<wire x1="32.5" y1="90.5" x2="34" y2="90.5" width="0.1524" layer="21"/>
+<text x="50.5" y="91.75" size="1.27" layer="21" rot="R90">GND</text>
+<wire x1="49" y1="96.5" x2="49.75" y2="97.25" width="0.1524" layer="21"/>
+<wire x1="49.75" y1="97.25" x2="50.5" y2="96.5" width="0.1524" layer="21"/>
+<wire x1="50.5" y1="96.5" x2="49" y2="96.5" width="0.1524" layer="21"/>
+<wire x1="50.5" y1="90.75" x2="49.75" y2="90" width="0.1524" layer="21"/>
+<wire x1="49.75" y1="90" x2="49" y2="90.75" width="0.1524" layer="21"/>
+<wire x1="49" y1="90.75" x2="50.5" y2="90.75" width="0.1524" layer="21"/>
+<text x="66.5" y="92" size="1.27" layer="21" rot="R90">GND</text>
+<wire x1="65" y1="96.75" x2="65.75" y2="97.5" width="0.1524" layer="21"/>
+<wire x1="65.75" y1="97.5" x2="66.5" y2="96.75" width="0.1524" layer="21"/>
+<wire x1="66.5" y1="96.75" x2="65" y2="96.75" width="0.1524" layer="21"/>
+<wire x1="66.5" y1="91" x2="65.75" y2="90.25" width="0.1524" layer="21"/>
+<wire x1="65.75" y1="90.25" x2="65" y2="91" width="0.1524" layer="21"/>
+<wire x1="65" y1="91" x2="66.5" y2="91" width="0.1524" layer="21"/>
+<text x="36.5" y="91.5" size="1.27" layer="21" rot="R90">3.3V</text>
+<wire x1="35" y1="96.25" x2="35.75" y2="97" width="0.1524" layer="21"/>
+<wire x1="35.75" y1="97" x2="36.5" y2="96.25" width="0.1524" layer="21"/>
+<wire x1="36.5" y1="96.25" x2="35" y2="96.25" width="0.1524" layer="21"/>
+<wire x1="36.5" y1="90.5" x2="35.75" y2="89.75" width="0.1524" layer="21"/>
+<wire x1="35.75" y1="89.75" x2="35" y2="90.5" width="0.1524" layer="21"/>
+<wire x1="35" y1="90.5" x2="36.5" y2="90.5" width="0.1524" layer="21"/>
+<text x="53" y="91.75" size="1.27" layer="21" rot="R90">3.3V</text>
+<wire x1="51.5" y1="96.5" x2="52.25" y2="97.25" width="0.1524" layer="21"/>
+<wire x1="52.25" y1="97.25" x2="53" y2="96.5" width="0.1524" layer="21"/>
+<wire x1="53" y1="96.5" x2="51.5" y2="96.5" width="0.1524" layer="21"/>
+<wire x1="53" y1="90.75" x2="52.25" y2="90" width="0.1524" layer="21"/>
+<wire x1="52.25" y1="90" x2="51.5" y2="90.75" width="0.1524" layer="21"/>
+<wire x1="51.5" y1="90.75" x2="53" y2="90.75" width="0.1524" layer="21"/>
+<text x="69.25" y="92" size="1.27" layer="21" rot="R90">3.3V</text>
+<wire x1="67.75" y1="96.75" x2="68.5" y2="97.5" width="0.1524" layer="21"/>
+<wire x1="68.5" y1="97.5" x2="69.25" y2="96.75" width="0.1524" layer="21"/>
+<wire x1="69.25" y1="96.75" x2="67.75" y2="96.75" width="0.1524" layer="21"/>
+<wire x1="69.25" y1="91" x2="68.5" y2="90.25" width="0.1524" layer="21"/>
+<wire x1="68.5" y1="90.25" x2="67.75" y2="91" width="0.1524" layer="21"/>
+<wire x1="67.75" y1="91" x2="69.25" y2="91" width="0.1524" layer="21"/>
+<text x="77.25" y="104.25" size="1.27" layer="21">GND</text>
+<wire x1="82" y1="105.75" x2="82.75" y2="105" width="0.1524" layer="21"/>
+<wire x1="82.75" y1="105" x2="82" y2="104.25" width="0.1524" layer="21"/>
+<wire x1="82" y1="104.25" x2="82" y2="105.75" width="0.1524" layer="21"/>
+<text x="77.25" y="106.75" size="1.27" layer="21">3.3V</text>
+<wire x1="82" y1="108.25" x2="82.75" y2="107.5" width="0.1524" layer="21"/>
+<wire x1="82.75" y1="107.5" x2="82" y2="106.75" width="0.1524" layer="21"/>
+<wire x1="82" y1="106.75" x2="82" y2="108.25" width="0.1524" layer="21"/>
+<text x="77.5" y="90.25" size="1.27" layer="21">GND</text>
+<wire x1="82.25" y1="91.75" x2="83" y2="91" width="0.1524" layer="21"/>
+<wire x1="83" y1="91" x2="82.25" y2="90.25" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="90.25" x2="82.25" y2="91.75" width="0.1524" layer="21"/>
+<text x="77.5" y="92.75" size="1.27" layer="21">3.3V</text>
+<wire x1="82.25" y1="94.25" x2="83" y2="93.5" width="0.1524" layer="21"/>
+<wire x1="83" y1="93.5" x2="82.25" y2="92.75" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="92.75" x2="82.25" y2="94.25" width="0.1524" layer="21"/>
+<text x="77.5" y="76.5" size="1.27" layer="21">GND</text>
+<wire x1="82.25" y1="78" x2="83" y2="77.25" width="0.1524" layer="21"/>
+<wire x1="83" y1="77.25" x2="82.25" y2="76.5" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="76.5" x2="82.25" y2="78" width="0.1524" layer="21"/>
+<text x="77.5" y="79" size="1.27" layer="21">3.3V</text>
+<wire x1="82.25" y1="80.5" x2="83" y2="79.75" width="0.1524" layer="21"/>
+<wire x1="83" y1="79.75" x2="82.25" y2="79" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="79" x2="82.25" y2="80.5" width="0.1524" layer="21"/>
+<text x="77.5" y="62.25" size="1.27" layer="21">GND</text>
+<wire x1="82.25" y1="63.75" x2="83" y2="63" width="0.1524" layer="21"/>
+<wire x1="83" y1="63" x2="82.25" y2="62.25" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="62.25" x2="82.25" y2="63.75" width="0.1524" layer="21"/>
+<text x="77.5" y="64.75" size="1.27" layer="21">3.3V</text>
+<wire x1="82.25" y1="66.25" x2="83" y2="65.5" width="0.1524" layer="21"/>
+<wire x1="83" y1="65.5" x2="82.25" y2="64.75" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="64.75" x2="82.25" y2="66.25" width="0.1524" layer="21"/>
+<text x="77.5" y="48.25" size="1.27" layer="21">GND</text>
+<wire x1="82.25" y1="49.75" x2="83" y2="49" width="0.1524" layer="21"/>
+<wire x1="83" y1="49" x2="82.25" y2="48.25" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="48.25" x2="82.25" y2="49.75" width="0.1524" layer="21"/>
+<text x="77.5" y="50.75" size="1.27" layer="21">3.3V</text>
+<wire x1="82.25" y1="52.25" x2="83" y2="51.5" width="0.1524" layer="21"/>
+<wire x1="83" y1="51.5" x2="82.25" y2="50.75" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="50.75" x2="82.25" y2="52.25" width="0.1524" layer="21"/>
+<text x="77.5" y="34" size="1.27" layer="21">GND</text>
+<wire x1="82.25" y1="35.5" x2="83" y2="34.75" width="0.1524" layer="21"/>
+<wire x1="83" y1="34.75" x2="82.25" y2="34" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="34" x2="82.25" y2="35.5" width="0.1524" layer="21"/>
+<text x="77.5" y="36.5" size="1.27" layer="21">3.3V</text>
+<wire x1="82.25" y1="38" x2="83" y2="37.25" width="0.1524" layer="21"/>
+<wire x1="83" y1="37.25" x2="82.25" y2="36.5" width="0.1524" layer="21"/>
+<wire x1="82.25" y1="36.5" x2="82.25" y2="38" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -1153,22 +1248,58 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="" x="27.25" y="51.25" rot="R180"/>
 <element name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="" x="42.25" y="51.25" rot="R180"/>
 <element name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="" x="37.25" y="51.25" rot="R180"/>
-<element name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="103.75" rot="R90"/>
-<element name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="101.5"/>
-<element name="J11" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="101.5"/>
-<element name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="101.5"/>
-<element name="J14" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="61.75" rot="R90"/>
-<element name="J2" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="89.75" rot="R90"/>
-<element name="J3" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="75.75" rot="R90"/>
-<element name="J4" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="47.75" rot="R90"/>
-<element name="J5" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="33.75" rot="R90"/>
+<element name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="103.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.2512" y="95.9988" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.5991" y="98.7739" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="101.5" smashed="yes">
+<attribute name="NAME" x="55.7488" y="101.2488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="59.5239" y="103.6509" size="1.27" layer="27"/>
+</element>
+<element name="J11" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="101.5" smashed="yes">
+<attribute name="NAME" x="39.7488" y="101.2488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="43.5239" y="103.6509" size="1.27" layer="27"/>
+</element>
+<element name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="101.5" smashed="yes">
+<attribute name="NAME" x="23.4988" y="100.9988" size="1.27" layer="25"/>
+<attribute name="VALUE" x="27.0239" y="103.6509" size="1.27" layer="27"/>
+</element>
+<element name="J14" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="61.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.2512" y="53.2488" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.5991" y="56.7739" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J2" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="89.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.2512" y="81.9988" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.5991" y="84.7739" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J3" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="75.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.2512" y="67.9988" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.5991" y="70.7739" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J4" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="47.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.2512" y="39.9988" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.5991" y="42.7739" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="J5" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="86.75" y="33.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.2512" y="25.9988" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="84.5991" y="28.7739" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="J6" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X03MTA" value="" x="6.37" y="80.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.7338" y="84.8688" size="1.27" layer="25"/>
 <attribute name="VALUE" x="8.5209" y="84.1762" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J7" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="84"/>
-<element name="J8" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="84"/>
-<element name="J9" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="84"/>
+<element name="J7" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="64.5" y="84" smashed="yes">
+<attribute name="NAME" x="55.7488" y="83.7488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="59.5239" y="86.1509" size="1.27" layer="27"/>
+</element>
+<element name="J8" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="48.5" y="84" smashed="yes">
+<attribute name="NAME" x="39.7488" y="83.7488" size="1.27" layer="25"/>
+<attribute name="VALUE" x="43.5239" y="86.1509" size="1.27" layer="27"/>
+</element>
+<element name="J9" library="con-amp" library_urn="urn:adsk.eagle:library:127" package="10X04MTA" value="" x="32" y="84" smashed="yes">
+<attribute name="NAME" x="24.4988" y="83.4988" size="1.27" layer="25"/>
+<attribute name="VALUE" x="27.0239" y="86.1509" size="1.27" layer="27"/>
+</element>
 <element name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X20" value="" x="35.5" y="8.75" smashed="yes">
 <attribute name="VALUE" x="10.1" y="5.575" size="1.27" layer="27"/>
 </element>
@@ -1205,7 +1336,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="U$1" library="WALL-E_Parts" package="TEENSY_3.5/3.6" value="TEENSY_3.5/3.6" x="37.5" y="21.75" rot="R180"/>
 <element name="U$2" library="WALL-E_Parts" package="1825910-7" value="TACTILE-SWITCH-1825910-7" x="5.83" y="66.17" smashed="yes"/>
 <element name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="PJ-102A" value="2.1MMJACKTHM" x="8.87" y="94.59" smashed="yes" rot="R90"/>
-<element name="U$4" library="WALL-E_Parts" package="SIP3" value="R-78E5.0-0.5" x="16.41" y="77.29"/>
+<element name="U4" library="WALL-E_Parts" package="SIP3" value="R-78E5.0-0.5" x="16.41" y="77.29"/>
 <element name="U$5" library="WALL-E_Parts" package="SOT223" value="LM3940" x="25.36" y="62.58" smashed="yes">
 <attribute name="VALUE" x="22.07" y="56.2592" size="1.27" layer="27"/>
 </element>
@@ -1221,7 +1352,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signals>
 <signal name="+12V">
 <contactref element="U$6" pad="RING"/>
-<contactref element="U$4" pad="1"/>
+<contactref element="U4" pad="1"/>
 <contactref element="TP1" pad="TP"/>
 <contactref element="U$3" pad="RING"/>
 <contactref element="TP4" pad="TP"/>
@@ -1286,7 +1417,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </polygon>
 </signal>
 <signal name="5V">
-<contactref element="U$4" pad="3"/>
+<contactref element="U4" pad="3"/>
 <contactref element="U$5" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="TP2" pad="TP"/>
@@ -1308,7 +1439,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="23.25" y1="45.5" x2="28.25" y2="45.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
-<contactref element="U$4" pad="2"/>
+<contactref element="U4" pad="2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="TP13" pad="TP"/>
 <wire x1="43.1" y1="51.25" x2="43.1" y2="45.65" width="0.1524" layer="1"/>

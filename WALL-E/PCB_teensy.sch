@@ -8755,6 +8755,7 @@ Source: www.kingbright.com</description>
 <part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805"/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805"/>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805"/>
+<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8820,6 +8821,7 @@ Source: www.kingbright.com</description>
 <instance part="R6" gate="G$1" x="68.58" y="60.96"/>
 <instance part="R7" gate="G$1" x="88.9" y="66.04"/>
 <instance part="R8" gate="G$1" x="88.9" y="60.96"/>
+<instance part="TP1" gate="G$1" x="-50.8" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -9078,9 +9080,13 @@ Source: www.kingbright.com</description>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="P$3"/>
-<wire x1="-53.34" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="33.02" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <label x="-45.72" y="35.56" size="1.778" layer="95"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="-50.8" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="7.62" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-50.8" y="33.02"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>

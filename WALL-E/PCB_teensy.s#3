@@ -9009,6 +9009,10 @@ Source: www.kingbright.com</description>
 <wire x1="35.56" y1="33.02" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
 <label x="35.56" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="-48.26" y1="104.14" x2="-48.26" y2="99.06" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -9218,12 +9222,6 @@ Source: www.kingbright.com</description>
 <wire x1="-96.52" y1="-22.86" x2="-91.44" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-91.44" y="-22.86" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="13"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="104.14" x2="-48.26" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="0/RX" class="0">

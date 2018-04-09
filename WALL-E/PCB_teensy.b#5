@@ -424,7 +424,7 @@
 <wire x1="71.25" y1="109.5" x2="88.75" y2="109.5" width="0.1524" layer="21"/>
 <wire x1="88.75" y1="109.5" x2="88.75" y2="95.75" width="0.1524" layer="21"/>
 <text x="71.5" y="107.75" size="1.4224" layer="21">UART</text>
-<dimension x1="0" y1="115.75" x2="92.75" y2="115.75" x3="46.375" y3="118.25" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="0" y1="115.75" x2="92.75" y2="115.75" x3="46.375" y3="120.25" textsize="1.778" layer="20" unit="inch"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">

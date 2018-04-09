@@ -414,6 +414,17 @@
 <circle x="83.25" y="16.25" radius="0.25" width="0.1524" layer="21"/>
 <circle x="83.25" y="18.25" radius="0.25" width="0.1524" layer="21"/>
 <text x="91.25" y="3" size="1.778" layer="21" rot="R180">WesTangGang</text>
+<wire x1="88.75" y1="53.25" x2="70.75" y2="53.25" width="0.1524" layer="21"/>
+<wire x1="70.75" y1="53.25" x2="70.75" y2="67.5" width="0.1524" layer="21"/>
+<wire x1="70.75" y1="67.5" x2="88.75" y2="67.5" width="0.1524" layer="21"/>
+<wire x1="88.75" y1="67.5" x2="88.75" y2="53.25" width="0.1524" layer="21"/>
+<text x="71" y="65.25" size="1.778" layer="21">SPI</text>
+<wire x1="88.75" y1="95.75" x2="75.75" y2="95.75" width="0.1524" layer="21"/>
+<wire x1="75.75" y1="95.75" x2="71.25" y2="100.75" width="0.1524" layer="21"/>
+<wire x1="71.25" y1="100.75" x2="71.25" y2="109.5" width="0.1524" layer="21"/>
+<wire x1="71.25" y1="109.5" x2="88.75" y2="109.5" width="0.1524" layer="21"/>
+<wire x1="88.75" y1="109.5" x2="88.75" y2="95.75" width="0.1524" layer="21"/>
+<text x="71.5" y="107.75" size="1.4224" layer="21">UART</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">

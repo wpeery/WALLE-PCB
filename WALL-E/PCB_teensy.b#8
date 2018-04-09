@@ -392,6 +392,28 @@
 <text x="0.75" y="63.25" size="1.27" layer="21">PWR JCK</text>
 <text x="0.75" y="60.25" size="1.27" layer="21">VIN</text>
 <text x="0.75" y="57.5" size="1.27" layer="21">V USB</text>
+<text x="77.25" y="99" size="1.27" layer="21">TX 1</text>
+<wire x1="82" y1="100.5" x2="82.75" y2="99.75" width="0.1524" layer="21"/>
+<wire x1="82.75" y1="99.75" x2="82" y2="99" width="0.1524" layer="21"/>
+<wire x1="82" y1="99" x2="82" y2="100.5" width="0.1524" layer="21"/>
+<text x="77.25" y="101.5" size="1.27" layer="21">RX 0</text>
+<wire x1="82" y1="103" x2="82.75" y2="102.25" width="0.1524" layer="21"/>
+<wire x1="82.75" y1="102.25" x2="82" y2="101.5" width="0.1524" layer="21"/>
+<wire x1="82" y1="101.5" x2="82" y2="103" width="0.1524" layer="21"/>
+<polygon width="0.1524" layer="29">
+<vertex x="29" y="64.75"/>
+<vertex x="21.75" y="64.75"/>
+<vertex x="21.75" y="73.5"/>
+<vertex x="29" y="73.5"/>
+</polygon>
+<text x="81.5" y="5" size="2.7" layer="21" rot="R90">WALL-E</text>
+<circle x="83.25" y="5.5" radius="0.9013875" width="0.1524" layer="21"/>
+<circle x="83.25" y="8.75" radius="0.70710625" width="0.1524" layer="21"/>
+<circle x="83.25" y="11.75" radius="0.559015625" width="0.1524" layer="21"/>
+<circle x="83.25" y="14.25" radius="0.353553125" width="0.1524" layer="21"/>
+<circle x="83.25" y="16.25" radius="0.25" width="0.1524" layer="21"/>
+<circle x="83.25" y="18.25" radius="0.25" width="0.1524" layer="21"/>
+<text x="91.25" y="3" size="1.778" layer="21" rot="R180">WesTangGang</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">

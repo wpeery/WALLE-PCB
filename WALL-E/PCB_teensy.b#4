@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -158,10 +158,10 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="92.75" y2="0" width="0" layer="20"/>
-<wire x1="92.75" y1="0" x2="92.75" y2="115.75" width="0" layer="20"/>
-<wire x1="92.75" y1="115.75" x2="0" y2="115.75" width="0" layer="20"/>
-<wire x1="0" y1="115.75" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="115.75" x2="0" y2="0" x3="-9" y3="57.875" textsize="1.778" layer="20" dtype="horizontal" unit="inch"/>
+<wire x1="92.75" y1="0" x2="92.75" y2="120.75" width="0" layer="20"/>
+<wire x1="92.75" y1="120.75" x2="0" y2="120.75" width="0" layer="20" locked="yes"/>
+<wire x1="0" y1="120.75" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="120.75" x2="0" y2="0" x3="-9" y3="60.375" textsize="1.778" layer="20" dtype="horizontal" unit="inch"/>
 <text x="10.75" y="6.75" size="1.27" layer="21" rot="R270">A14</text>
 <text x="14.25" y="3.5" size="1.27" layer="21" rot="R90">A15</text>
 <text x="17" y="3.5" size="1.27" layer="21" rot="R90">A16</text>
@@ -405,14 +405,14 @@
 <vertex x="21.75" y="73.5"/>
 <vertex x="29" y="73.5"/>
 </polygon>
-<text x="81.5" y="5" size="2.7" layer="21" rot="R90">WALL-E</text>
-<circle x="83.25" y="5.5" radius="0.9013875" width="0.1524" layer="21"/>
-<circle x="83.25" y="8.75" radius="0.70710625" width="0.1524" layer="21"/>
-<circle x="83.25" y="11.75" radius="0.559015625" width="0.1524" layer="21"/>
-<circle x="83.25" y="14.25" radius="0.353553125" width="0.1524" layer="21"/>
-<circle x="83.25" y="16.25" radius="0.25" width="0.1524" layer="21"/>
-<circle x="83.25" y="18.25" radius="0.25" width="0.1524" layer="21"/>
-<text x="91.25" y="3" size="1.778" layer="21" rot="R180">WesTangGang</text>
+<text x="81" y="8.25" size="2.7" layer="21" rot="R90">WALL-E</text>
+<circle x="82.75" y="8.75" radius="0.9013875" width="0.1524" layer="21"/>
+<circle x="82.75" y="12" radius="0.70710625" width="0.1524" layer="21"/>
+<circle x="82.75" y="15" radius="0.559015625" width="0.1524" layer="21"/>
+<circle x="82.75" y="17.5" radius="0.353553125" width="0.1524" layer="21"/>
+<circle x="82.75" y="19.5" radius="0.25" width="0.1524" layer="21"/>
+<circle x="82.75" y="21.5" radius="0.25" width="0.1524" layer="21"/>
+<text x="84.5" y="23.75" size="1.778" layer="21" rot="R270">WesTangGang</text>
 <wire x1="88.75" y1="53.25" x2="70.75" y2="53.25" width="0.1524" layer="21"/>
 <wire x1="70.75" y1="53.25" x2="70.75" y2="67.5" width="0.1524" layer="21"/>
 <wire x1="70.75" y1="67.5" x2="88.75" y2="67.5" width="0.1524" layer="21"/>
@@ -424,7 +424,18 @@
 <wire x1="71.25" y1="109.5" x2="88.75" y2="109.5" width="0.1524" layer="21"/>
 <wire x1="88.75" y1="109.5" x2="88.75" y2="95.75" width="0.1524" layer="21"/>
 <text x="71.5" y="107.75" size="1.4224" layer="21">UART</text>
-<dimension x1="0" y1="115.75" x2="92.75" y2="115.75" x3="46.375" y3="120.25" textsize="1.778" layer="20" unit="inch"/>
+<hole x="5" y="5" drill="3.45"/>
+<hole x="87" y="5" drill="3.45"/>
+<hole x="5" y="116" drill="3.45"/>
+<hole x="87" y="116" drill="3.45"/>
+<dimension x1="5" y1="116" x2="5" y2="0" x3="-18.5" y3="58" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="5" y1="5" x2="5" y2="0" x3="-3.5" y3="2.5" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="5" y1="5" x2="0" y2="5" x3="2.5" y3="14" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="87" y1="5" x2="0" y2="5" x3="43.5" y3="-4" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="87" y1="116" x2="87" y2="0" x3="103.5" y3="58" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="87" y1="116" x2="0" y2="116" x3="43.5" y3="131.5" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="87" y1="5" x2="87" y2="0" x3="81.5" y3="2.5" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="92.75" y1="120.75" x2="0" y2="126.5" x3="46.375" y3="126.5" textsize="1.778" layer="20" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -1525,8 +1536,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J2" pad="2"/>
 <polygon width="0.1524" layer="2">
 <vertex x="0" y="0"/>
-<vertex x="0" y="115.75"/>
-<vertex x="92.75" y="115.75"/>
+<vertex x="0" y="120.75"/>
+<vertex x="92.75" y="120.75"/>
 <vertex x="92.75" y="0"/>
 </polygon>
 <wire x1="25.36" y1="65.679" x2="25.25" y2="65.789" width="0.1524" layer="1" curve="-90"/>
@@ -1670,8 +1681,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <polygon width="0.1524" layer="15">
 <vertex x="0" y="0"/>
 <vertex x="92.75" y="0"/>
-<vertex x="92.75" y="115.75"/>
-<vertex x="0" y="115.75"/>
+<vertex x="92.75" y="120.75"/>
+<vertex x="0" y="120.75"/>
 </polygon>
 <via x="33.25" y="66" extent="1-16" drill="0.35"/>
 <wire x1="29" y1="56" x2="30.5" y2="56" width="0.1524" layer="1"/>
@@ -2241,6 +2252,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>

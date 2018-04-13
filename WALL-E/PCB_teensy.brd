@@ -161,7 +161,6 @@
 <wire x1="92.75" y1="0" x2="92.75" y2="120.75" width="0" layer="20"/>
 <wire x1="92.75" y1="120.75" x2="0" y2="120.75" width="0" layer="20" locked="yes"/>
 <wire x1="0" y1="120.75" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="120.75" x2="0" y2="0" x3="-9" y3="60.375" textsize="1.778" layer="20" dtype="horizontal" unit="inch"/>
 <text x="10.75" y="6.75" size="1.27" layer="21" rot="R270">A14</text>
 <text x="14.25" y="3.5" size="1.27" layer="21" rot="R90">A15</text>
 <text x="17" y="3.5" size="1.27" layer="21" rot="R90">A16</text>
@@ -428,14 +427,6 @@
 <hole x="87" y="5" drill="3.45"/>
 <hole x="5" y="116" drill="3.45"/>
 <hole x="87" y="116" drill="3.45"/>
-<dimension x1="5" y1="116" x2="5" y2="0" x3="-18.5" y3="58" textsize="1.778" layer="20" unit="inch"/>
-<dimension x1="5" y1="5" x2="5" y2="0" x3="-3.5" y3="2.5" textsize="1.778" layer="20" unit="inch"/>
-<dimension x1="5" y1="5" x2="0" y2="5" x3="2.5" y3="14" textsize="1.778" layer="20" unit="inch"/>
-<dimension x1="87" y1="5" x2="0" y2="5" x3="43.5" y3="-4" textsize="1.778" layer="20" unit="inch"/>
-<dimension x1="87" y1="116" x2="87" y2="0" x3="103.5" y3="58" textsize="1.778" layer="20" unit="inch"/>
-<dimension x1="87" y1="116" x2="0" y2="116" x3="43.5" y3="131.5" textsize="1.778" layer="20" unit="inch"/>
-<dimension x1="87" y1="5" x2="87" y2="0" x3="81.5" y3="2.5" textsize="1.778" layer="20" unit="inch"/>
-<dimension x1="92.75" y1="120.75" x2="0" y2="126.5" x3="46.375" y3="126.5" textsize="1.778" layer="20" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">

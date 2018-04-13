@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -424,7 +424,6 @@
 <wire x1="71.25" y1="109.5" x2="88.75" y2="109.5" width="0.1524" layer="21"/>
 <wire x1="88.75" y1="109.5" x2="88.75" y2="95.75" width="0.1524" layer="21"/>
 <text x="71.5" y="107.75" size="1.4224" layer="21">UART</text>
-<dimension x1="0" y1="120.75" x2="92.75" y2="120.75" x3="46.375" y3="120.75" textsize="1.778" layer="20" unit="inch"/>
 <hole x="5" y="5" drill="3.45"/>
 <hole x="87" y="5" drill="3.45"/>
 <hole x="5" y="116" drill="3.45"/>
@@ -436,6 +435,7 @@
 <dimension x1="87" y1="116" x2="87" y2="0" x3="103.5" y3="58" textsize="1.778" layer="20" unit="inch"/>
 <dimension x1="87" y1="116" x2="0" y2="116" x3="43.5" y3="131.5" textsize="1.778" layer="20" unit="inch"/>
 <dimension x1="87" y1="5" x2="87" y2="0" x3="81.5" y3="2.5" textsize="1.778" layer="20" unit="inch"/>
+<dimension x1="92.75" y1="120.75" x2="0" y2="126.5" x3="46.375" y3="126.5" textsize="1.778" layer="20" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">

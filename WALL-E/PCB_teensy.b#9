@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
@@ -1523,40 +1523,19 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="JP2" pad="20"/>
 <contactref element="LED2" pad="C"/>
 <contactref element="J2" pad="2"/>
-<wire x1="86.75" y1="91.02" x2="86.75" y2="105.02" width="0" layer="19" extent="1-1"/>
-<wire x1="86.75" y1="77.02" x2="86.75" y2="91.02" width="0" layer="19" extent="1-1"/>
-<wire x1="86.75" y1="63.02" x2="86.75" y2="77.02" width="0" layer="19" extent="1-1"/>
-<wire x1="86.75" y1="49.02" x2="86.75" y2="63.02" width="0" layer="19" extent="1-1"/>
-<wire x1="86.75" y1="35.02" x2="86.75" y2="49.02" width="0" layer="19" extent="1-1"/>
-<wire x1="65.77" y1="101.5" x2="86.75" y2="105.02" width="0" layer="19" extent="1-1"/>
-<wire x1="49.77" y1="101.5" x2="65.77" y2="101.5" width="0" layer="19" extent="1-1"/>
-<wire x1="33.27" y1="101.5" x2="49.77" y2="101.5" width="0" layer="19" extent="1-1"/>
-<wire x1="18.16" y1="107.87" x2="33.27" y2="101.5" width="0" layer="19" extent="1-1"/>
-<wire x1="15.16" y1="103.17" x2="18.16" y2="107.87" width="0" layer="19" extent="1-1"/>
-<wire x1="18.16" y1="94.69" x2="15.16" y2="103.17" width="0" layer="19" extent="1-1"/>
-<wire x1="15.16" y1="89.99" x2="18.16" y2="94.69" width="0" layer="19" extent="1-1"/>
-<wire x1="6.37" y1="80.4" x2="15.16" y2="89.99" width="0" layer="19" extent="1-1"/>
-<wire x1="12.08" y1="71.42" x2="6.37" y2="80.4" width="0" layer="19" extent="1-1"/>
-<wire x1="12.08" y1="66.92" x2="12.08" y2="71.42" width="0" layer="19" extent="1-1"/>
-<wire x1="25.36" y1="65.679" x2="12.08" y2="66.92" width="0" layer="19" extent="1-1"/>
-<wire x1="26.4" y1="51.25" x2="25.36" y2="65.679" width="0" layer="19" extent="1-1"/>
-<wire x1="31.4" y1="51.25" x2="26.4" y2="51.25" width="0" layer="19" extent="1-1"/>
-<wire x1="36.4" y1="51.25" x2="31.4" y2="51.25" width="0" layer="19" extent="1-1"/>
-<wire x1="41.4" y1="51.25" x2="36.4" y2="51.25" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="2">
+<vertex x="0" y="0"/>
+<vertex x="0" y="115.75"/>
+<vertex x="92.75" y="115.75"/>
+<vertex x="92.75" y="0"/>
+</polygon>
+<wire x1="36.4" y1="51.25" x2="41.4" y2="51.25" width="0" layer="19" extent="1-1"/>
+<wire x1="31.4" y1="51.25" x2="36.4" y2="51.25" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4" y1="51.25" x2="31.4" y2="51.25" width="0" layer="19" extent="1-1"/>
 <wire x1="21.4" y1="51.25" x2="26.4" y2="51.25" width="0" layer="19" extent="1-1"/>
-<wire x1="42.89" y1="36.25" x2="41.4" y2="51.25" width="0" layer="19" extent="1-1"/>
-<wire x1="45.43" y1="36.25" x2="42.89" y2="36.25" width="0" layer="19" extent="1-1"/>
-<wire x1="47.97" y1="36.25" x2="45.43" y2="36.25" width="0" layer="19" extent="1-1"/>
-<wire x1="50.51" y1="36.25" x2="47.97" y2="36.25" width="0" layer="19" extent="1-1"/>
-<wire x1="53.05" y1="36.25" x2="50.51" y2="36.25" width="0" layer="19" extent="1-1"/>
-<wire x1="55.59" y1="36.25" x2="53.05" y2="36.25" width="0" layer="19" extent="1-1"/>
-<wire x1="58.13" y1="36.25" x2="55.59" y2="36.25" width="0" layer="19" extent="1-1"/>
-<wire x1="65.44" y1="29.37" x2="58.13" y2="36.25" width="0" layer="19" extent="1-1"/>
-<wire x1="65.77" y1="84" x2="65.77" y2="101.5" width="0" layer="19" extent="1-1"/>
-<wire x1="49.77" y1="84" x2="65.77" y2="84" width="0" layer="19" extent="1-1"/>
-<wire x1="33.27" y1="84" x2="49.77" y2="84" width="0" layer="19" extent="1-1"/>
+<wire x1="25.36" y1="65.679" x2="26.4" y2="51.25" width="0" layer="19" extent="1-1"/>
+<wire x1="12.08" y1="66.92" x2="25.36" y2="65.679" width="0" layer="19" extent="1-1"/>
 <wire x1="70.25" y1="8.95" x2="65.44" y2="29.37" width="0" layer="19" extent="1-1"/>
-<wire x1="29.88" y1="14.13" x2="42.89" y2="36.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="U4" pad="3"/>
@@ -2224,14 +2203,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="71.75" y1="14.5" x2="64.25" y2="22" width="0.1524" layer="2"/>
 <wire x1="64.25" y1="22" x2="64.25" y2="46.5" width="0.1524" layer="2"/>
 <wire x1="64.25" y1="46.5" x2="55.25" y2="55.5" width="0.1524" layer="2"/>
-</signal>
-<signal name="N$6">
-<polygon width="0.1524" layer="2">
-<vertex x="0" y="0"/>
-<vertex x="0" y="115.75"/>
-<vertex x="92.75" y="115.75"/>
-<vertex x="92.75" y="0"/>
-</polygon>
 </signal>
 </signals>
 </board>

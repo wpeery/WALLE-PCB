@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -411,8 +411,7 @@
 <circle x="82.75" y="17.5" radius="0.353553125" width="0.1524" layer="21"/>
 <circle x="82.75" y="19.5" radius="0.25" width="0.1524" layer="21"/>
 <circle x="82.75" y="21.5" radius="0.25" width="0.1524" layer="21"/>
-<text x="84.5" y="23.25" size="1.778" layer="21" rot="R270">Wesley Peery
-Franklin Tang</text>
+<text x="84.5" y="23.75" size="1.778" layer="21" rot="R270">WesTangGang</text>
 <wire x1="88.75" y1="53.25" x2="70.75" y2="53.25" width="0.1524" layer="21"/>
 <wire x1="70.75" y1="53.25" x2="70.75" y2="67.5" width="0.1524" layer="21"/>
 <wire x1="70.75" y1="67.5" x2="88.75" y2="67.5" width="0.1524" layer="21"/>

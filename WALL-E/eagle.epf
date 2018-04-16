@@ -1,6 +1,6 @@
 [Eagle]
-Version="08 06 03"
-Platform="Linux"
+Version="08 06 00"
+Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -277,7 +277,6 @@ UsedLibraryUrn="urn:adsk.eagle:library:112"
 UsedLibraryUrn="urn:adsk.eagle:library:418"
 UsedLibraryUrn="urn:adsk.eagle:library:419"
 UsedLibraryUrn="urn:adsk.eagle:library:527439"
-UsedLibraryUrn="urn:adsk.eagle:library:420"
 UsedLibraryUrn="urn:adsk.eagle:library:113"
 UsedLibraryUrn="urn:adsk.eagle:library:114"
 UsedLibraryUrn="urn:adsk.eagle:library:115"
@@ -349,9 +348,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:174"
 UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
-UsedLibrary="/home/wpeery/eagle/eagle-8.6.3/lbr/Teensy356.lbr"
-UsedLibrary="/home/wpeery/eagle/eagle-8.6.3/lbr/WALL-E_Parts.lbr"
-UsedLibrary="/home/wpeery/eagle/eagle-8.6.3/lbr/teensy.lbr"
+UsedLibraryUrn="urn:adsk.eagle:library:420"
 UsedLibrary="WALL-E_Parts.lbr"
 
 [Win_1]
@@ -359,5 +356,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3360 1080"
 Window="Win_1"

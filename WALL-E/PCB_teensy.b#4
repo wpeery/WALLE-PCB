@@ -1436,6 +1436,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" value="PTR1B2,54" x="8.25" y="45.5">
 <attribute name="TP_SIGNAL_NAME" value="" x="8.25" y="45.5" size="1.778" layer="27" display="off"/>
 </element>
+<element name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" value="PTR1B2,54" x="38.25" y="45.5">
+<attribute name="TP_SIGNAL_NAME" value="" x="38.25" y="45.5" size="1.778" layer="27" display="off"/>
+</element>
 <element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" value="PTR1B2,54" x="23.25" y="45.5">
 <attribute name="TP_SIGNAL_NAME" value="" x="23.25" y="45.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -1525,6 +1528,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="26.4" y1="42.35" x2="26.5" y2="42.25" width="0.1524" layer="1"/>
 <wire x1="27.4" y1="51.25" x2="31.4" y2="48.35" width="0.1524" layer="1"/>
 <wire x1="31.4" y1="48.35" x2="34" y2="45.75" width="0.1524" layer="1"/>
+<wire x1="34" y1="45.75" x2="36.4" y2="48.15" width="0.1524" layer="1"/>
 <wire x1="34" y1="45.75" x2="34" y2="42.25" width="0.1524" layer="1"/>
 <wire x1="21.4" y1="51.25" x2="18" y2="51.25" width="0.254" layer="1"/>
 <via x="18" y="51.25" extent="1-16" drill="0.35"/>
@@ -1545,6 +1549,14 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="25.36" y1="55.64" x2="25.5" y2="55.5" width="0.1524" layer="1"/>
 <via x="25.5" y="55.5" extent="1-16" drill="0.35"/>
 <contactref element="U$2" pad="P$3"/>
+<contactref element="TP11" pad="TP"/>
+<wire x1="38.1" y1="45.65" x2="38.25" y2="45.5" width="0.1524" layer="1"/>
+<via x="32.75" y="57.5" extent="1-16" drill="0.35"/>
+<wire x1="32.75" y1="57.5" x2="38.1" y2="52.15" width="0.1524" layer="1"/>
+<wire x1="5.58" y1="66.92" x2="9.58" y2="66.92" width="0.1524" layer="16"/>
+<wire x1="26.75" y1="63.5" x2="32.75" y2="57.5" width="0.1524" layer="16"/>
+<wire x1="9.58" y1="66.92" x2="13" y2="63.5" width="0.1524" layer="16"/>
+<wire x1="13" y1="63.5" x2="26.75" y2="63.5" width="0.1524" layer="16"/>
 <wire x1="86.75" y1="91.02" x2="86.75" y2="105.02" width="0" layer="19" extent="1-1"/>
 <wire x1="86.75" y1="77.02" x2="86.75" y2="91.02" width="0" layer="19" extent="1-1"/>
 <wire x1="86.75" y1="63.02" x2="86.75" y2="77.02" width="0" layer="19" extent="1-1"/>
@@ -1560,12 +1572,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="16.41" y1="77.29" x2="15.16" y2="89.99" width="0" layer="19" extent="1-1"/>
 <wire x1="12.08" y1="71.42" x2="16.41" y2="77.29" width="0" layer="19" extent="1-1"/>
 <wire x1="12.08" y1="66.92" x2="12.08" y2="71.42" width="0" layer="19" extent="1-1"/>
-<wire x1="5.58" y1="66.92" x2="12.08" y2="66.92" width="0" layer="19" extent="1-1"/>
-<wire x1="25.25" y1="75.5" x2="16.41" y2="77.29" width="0" layer="19" extent="1-1"/>
-<wire x1="25.36" y1="59.4812" x2="25.36" y2="65.679" width="0" layer="19" extent="1-1"/>
-<wire x1="27.4" y1="51.25" x2="25.5" y2="55.5" width="0" layer="19" extent="1-1"/>
-<wire x1="6.37" y1="80.4" x2="16.41" y2="77.29" width="0" layer="19" extent="1-1"/>
-<wire x1="42.89" y1="36.25" x2="34" y2="42.25" width="0" layer="19" extent="1-1"/>
+<wire x1="9.58" y1="66.92" x2="12.08" y2="66.92" width="0" layer="19" extent="16-16"/>
+<wire x1="25.36" y1="65.679" x2="26.75" y2="63.5" width="0" layer="19" extent="1-16"/>
+<wire x1="25.36" y1="59.4812" x2="26.75" y2="63.5" width="0" layer="19" extent="1-16"/>
+<wire x1="36.4" y1="48.15" x2="38.1" y2="52.15" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="45.65" x2="36.4" y2="48.15" width="0" layer="19" extent="1-1"/>
+<wire x1="42.89" y1="36.25" x2="38.25" y2="45.5" width="0" layer="19" extent="1-1"/>
 <wire x1="45.43" y1="36.25" x2="42.89" y2="36.25" width="0" layer="19" extent="1-1"/>
 <wire x1="47.97" y1="36.25" x2="45.43" y2="36.25" width="0" layer="19" extent="1-1"/>
 <wire x1="50.51" y1="36.25" x2="47.97" y2="36.25" width="0" layer="19" extent="1-1"/>
@@ -1573,6 +1585,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="55.59" y1="36.25" x2="53.05" y2="36.25" width="0" layer="19" extent="1-1"/>
 <wire x1="58.13" y1="36.25" x2="55.59" y2="36.25" width="0" layer="19" extent="1-1"/>
 <wire x1="65.44" y1="29.37" x2="58.13" y2="36.25" width="0" layer="19" extent="1-1"/>
+<wire x1="6.37" y1="80.4" x2="16.41" y2="77.29" width="0" layer="19" extent="1-1"/>
 <wire x1="33.27" y1="84" x2="25.25" y2="75.5" width="0" layer="19" extent="1-1"/>
 <wire x1="49.77" y1="84" x2="33.27" y2="84" width="0" layer="19" extent="1-1"/>
 <wire x1="65.77" y1="84" x2="49.77" y2="84" width="0" layer="19" extent="1-1"/>

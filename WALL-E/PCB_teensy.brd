@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -428,6 +428,10 @@ Franklin Tang</text>
 <hole x="87" y="5" drill="3.45"/>
 <hole x="5" y="116" drill="3.45"/>
 <hole x="87" y="116" drill="3.45"/>
+<text x="63.5" y="3" size="1.016" layer="21">Karli Yokotake</text>
+<text x="74.5" y="1.5" size="1.016" layer="21">Karthik Kribakaran</text>
+<text x="63.5" y="1.5" size="1.016" layer="21">Vincent Wang</text>
+<text x="74.5" y="3" size="1.016" layer="21">Veena Chandran</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -1465,20 +1469,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </element>
 </elements>
 <signals>
-<signal name="+12V">
-<contactref element="U$6" pad="RING"/>
-<contactref element="U4" pad="1"/>
-<contactref element="U$3" pad="RING"/>
-<contactref element="TP4" pad="TP"/>
-<wire x1="12.26" y1="107.87" x2="12.26" y2="94.69" width="0.254" layer="1"/>
-<wire x1="12.26" y1="94.69" x2="12.26" y2="78.9" width="0.254" layer="1"/>
-<wire x1="12.26" y1="78.9" x2="13.87" y2="77.29" width="0.254" layer="1"/>
-<wire x1="13.87" y1="77.29" x2="13.87" y2="72.88" width="0.1524" layer="1"/>
-<wire x1="13.87" y1="72.88" x2="15.75" y2="71" width="0.1524" layer="1"/>
-</signal>
 <signal name="GND">
-<contactref element="U$6" pad="TIP"/>
-<contactref element="U$6" pad="RING_SW"/>
 <contactref element="U$5" pad="4"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
@@ -1491,8 +1482,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="U$1" pad="GND"/>
 <contactref element="U$1" pad="GND2"/>
 <contactref element="J6" pad="2"/>
-<contactref element="U$3" pad="TIP"/>
-<contactref element="U$3" pad="RING_SW"/>
 <contactref element="J10" pad="2"/>
 <contactref element="J11" pad="2"/>
 <contactref element="J12" pad="2"/>
@@ -1541,6 +1530,13 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="15.4" y1="67.75" x2="15.4" y2="64.6" width="0.254" layer="1"/>
 <wire x1="15.4" y1="64.6" x2="15.5" y2="64.5" width="0.1524" layer="1"/>
 <via x="15.5" y="64.5" extent="1-16" drill="0.35"/>
+<contactref element="U$3" pad="RING"/>
+<contactref element="TP4" pad="TP"/>
+<contactref element="U$3" pad="RING_SW"/>
+<contactref element="U$6" pad="RING"/>
+<contactref element="U$6" pad="RING_SW"/>
+<wire x1="16.41" y1="77.29" x2="16.41" y2="71.66" width="0.1524" layer="1"/>
+<wire x1="16.41" y1="71.66" x2="15.75" y2="71" width="0.1524" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="U4" pad="3"/>
@@ -2108,6 +2104,14 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="17.5" y1="41" x2="16" y2="42.5" width="0.1524" layer="16"/>
 <wire x1="16" y1="42.5" x2="16" y2="56.77" width="0.1524" layer="16"/>
 <wire x1="16" y1="56.77" x2="13.27" y2="59.5" width="0.1524" layer="16"/>
+</signal>
+<signal name="+12V">
+<contactref element="U$3" pad="TIP"/>
+<contactref element="U$6" pad="TIP"/>
+<contactref element="U4" pad="1"/>
+<wire x1="18.16" y1="107.87" x2="18.16" y2="94.69" width="0.1524" layer="1"/>
+<wire x1="18.16" y1="94.69" x2="18.16" y2="81.58" width="0.1524" layer="1"/>
+<wire x1="18.16" y1="81.58" x2="13.87" y2="77.29" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
